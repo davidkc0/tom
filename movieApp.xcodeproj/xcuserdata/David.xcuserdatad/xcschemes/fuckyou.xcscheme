@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "636605011DB3FFF500FEFFDF"
-               BuildableName = "movieApp.app"
-               BlueprintName = "movieApp"
+               BlueprintIdentifier = "6366051C1DB4546B00FEFFDF"
+               BuildableName = "fuckyou.app"
+               BlueprintName = "fuckyou"
                ReferencedContainer = "container:movieApp.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,9 +32,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "636605011DB3FFF500FEFFDF"
-            BuildableName = "movieApp.app"
-            BlueprintName = "movieApp"
+            BlueprintIdentifier = "6366051C1DB4546B00FEFFDF"
+            BuildableName = "fuckyou.app"
+            BlueprintName = "fuckyou"
             ReferencedContainer = "container:movieApp.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -55,9 +55,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "636605011DB3FFF500FEFFDF"
-            BuildableName = "movieApp.app"
-            BlueprintName = "movieApp"
+            BlueprintIdentifier = "6366051C1DB4546B00FEFFDF"
+            BuildableName = "fuckyou.app"
+            BlueprintName = "fuckyou"
             ReferencedContainer = "container:movieApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -74,9 +74,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "636605011DB3FFF500FEFFDF"
-            BuildableName = "movieApp.app"
-            BlueprintName = "movieApp"
+            BlueprintIdentifier = "6366051C1DB4546B00FEFFDF"
+            BuildableName = "fuckyou.app"
+            BlueprintName = "fuckyou"
             ReferencedContainer = "container:movieApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

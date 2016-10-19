@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>fuckyou.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
 		<key>movieApp.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -13,6 +18,11 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>636605011DB3FFF500FEFFDF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6366051C1DB4546B00FEFFDF</key>
 		<dict>
 			<key>primary</key>
 			<true/>
