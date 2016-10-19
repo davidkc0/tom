@@ -11,10 +11,13 @@ import Foundation
 class Movie {
     var movieTitle: String
     var movieSummary: String
+    var movieGenre: String
     
-    init(movieSummary: String, movieTitle: String) {
+    init(movieSummary: String, movieTitle: String, movieGenre: String) {
         self.movieTitle = movieTitle
         self.movieSummary = movieSummary
+        self.movieGenre = movieGenre
+        
     }
     
     

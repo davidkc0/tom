@@ -35,14 +35,16 @@ class MovieManager {
             for entry in entries {
                 let movieName = entry["im:name"]["label"].string!
                 let movieSummary = entry["summary"]["label"].string!
+                let movieGenre = entry["category"]["attributes"]["label"].string!
                 
                 print("****************")
                 print(movieName)
                 print("****************")
                 print(movieSummary)
                 print("****************")
+                print(movieGenre)
                 
-                let tempMovie : Movie = Movie(movieSummary: movieSummary, movieTitle: movieName)
+                let tempMovie : Movie = Movie(movieSummary: movieSummary, movieTitle: movieName, movieGenre: movieGenre)
                 self.moviesArray.append(tempMovie)
                 
             }

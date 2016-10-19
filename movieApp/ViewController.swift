@@ -27,9 +27,20 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         tableView.delegate = self
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "toDetailView" {
+            let dvc = segue.destination as! DetailViewController
+            let indexPath = tableView.indexPathForSelectedRow!
+            dvc.movieData = array[indexPath.row]
+        }
+    }
+
+
+    
     func didLoadMovies() {
         print("Did load Movies!!!!!!!!!!")
-        tableView.reloadData()
+        array = movieManager.moviesArray
+            tableView.reloadData()
     }
     
     override func didReceiveMemoryWarning() {

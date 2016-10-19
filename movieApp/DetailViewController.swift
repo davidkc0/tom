@@ -9,13 +9,33 @@
 import UIKit
 
 class DetailViewController: UIViewController {
+    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var genreLabel: UILabel!
+    @IBOutlet weak var descriptionLabel: UILabel!
+    
+    
+    var movieData: Movie? = nil
+    
+   
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        guard let movieData = movieData else {
+            return
+        }
+        titleLabel.text = movieData.movieTitle
+        genreLabel.text = movieData.movieGenre
+        descriptionLabel.text = movieData.movieSummary
+        
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+      
+        
+    
     }
-
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
